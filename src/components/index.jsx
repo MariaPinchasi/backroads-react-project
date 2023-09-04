@@ -1,8 +1,8 @@
-import Navbar from "./navbar";
-import Hero from "./hero";
-import About from "./about";
-import Services from "./services";
-import Tours from "./tours";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import About from "./About";
+import Services from "./Services";
+import Tours from "./Tours";
 import Footer from "./footer";
 import Title from "./Title";
 
