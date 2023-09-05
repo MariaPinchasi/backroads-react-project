@@ -11,8 +11,8 @@ const Tours = () => {
                 {tours.map((tour) => {
                     const { id, image, date, title, info, location, duration, cost } = tour;
                     return (
-                        <article className="tour-card">
-                            <div className="tour-img-container" key={id}>
+                        <article className="tour-card" key={id}>
+                            <div className="tour-img-container" >
                                 <img src={image} className="tour-img" alt={title} />
                                 <p className="tour-date">{date}</p>
                             </div>
